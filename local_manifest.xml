@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+ <!-- Remote -->
+  <remote name="kjdev16" fetch="https://github.com/kjdev16"/>
+  <remote name="adarsh0s" fetch="https://github.com/adarsh0s"/>
+  <remote name="sarthakroy2002" fetch="https://gitlab.com/sarthakroy2002"/>
+  <remote name="yaap" fetch="https://github.com/yaap"/>
+
+ <!-- Device Resources -->
+  <project path="device/motorola/devonf" name="device_motorola_devonf" remote="kjdev16" revision="fifteen"/>
+  <project path="vendor/motorola/devonf" name="vendor_motorola_devonf" remote="adarsh0s" revision="fifteen"/>
+  <project path="device/motorola/devonf-kernel" name="device_motorola_devonf-kernel" remote="adarsh0s" revision="fifteen"/>
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="yaap" revision="fifteen"/>
+  <project path="vendor/motorola/devonf-motcamera" name="vendor_motorola_devonf-motcamera" remote="sarthakroy2002" revision="fourteen"/>
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="yaap" revision="fifteen"/>
+  <project path="vendor/extra" name="vendor_extra" remote="adarsh0s" revision="main"/>
+</manifest>
