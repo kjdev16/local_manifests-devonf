@@ -8,7 +8,7 @@
   <remote name="yaap" fetch="https://github.com/yaap"/>
 
  <!-- Device Resources -->
-  <project path="device/motorola/devonf" name="device_motorola_devonf" remote="kjdev16" revision="fifteen"/>
+  <project path="device/motorola/devonf" name="device_motorola_devonf" remote="kjdev16" revision="fifteen-axion"/>
   <project path="vendor/motorola/devonf" name="vendor_motorola_devonf" remote="adarsh0s" revision="fifteen"/>
   <project path="device/motorola/devonf-kernel" name="device_motorola_devonf-kernel" remote="adarsh0s" revision="fifteen"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="yaap" revision="fifteen"/>
